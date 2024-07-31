@@ -1,3 +1,12 @@
 const fullName="Hasan Abdollah";
-const separate=fullName.split(" ");
-console.log("FirsName : "+separate[0]+"\n"+"LastName : "+separate[1]);
+
+const firstName=fullName.slice(0,5);
+const lastName=fullName.slice(6,14);
+
+console.log("FirsName : "+firstName);
+console.log("LastName : "+lastName);
+
+
+
+
+
